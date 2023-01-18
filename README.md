@@ -60,5 +60,5 @@ Enjoy!
    -mongoDB     
    -Socket.IO
 
-### Deployed Site
+## Deployed Site
 Here is the link to [deployed site](https://idan-chat-app.netlify.app/)
