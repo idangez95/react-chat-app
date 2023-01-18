@@ -1,73 +1,46 @@
 # react-chat-app
-# Auction site
-
-In our auction web application you just need to upload your product and that it,when the auction ended we will let you know who is winner.
+Welcome to React Chat App!
+This app was built using React and Socket.IO.
+You are welcome to create a user and start chatting with your friends😀
 
 ## Table Of Contents <a name="Table"></a>
 - [Table Of Contents](#Table)
-- [Why it made and why you should use it](#why)
-- [How to run](#run)
 - [Screenshots](#Screenshots)
 - [Technologies](#Technologies)
-- [What next](#next)
-
-
-## Why it made and why you should use it <a name="why"></a>
-1. Because everyone has products at home that they don't need so why not offer them for sale
-2. You don't have to determine the market price is the one that determines
-3. It easy to use
-
-
-## Running the project <a name="run"></a>
-In the project directory, you can run:
-
-1.Clone the repo.
-
-2.Run `npm install`.
-
-3.run `npm start`
-
-4.Navigate to `http://localhost:3000`.
-
-1.Clone the server repo.
-
-2.Run `npm install`.
-
-3.run `nodemon server.js`.
 
 ## Screenshots <a name="Screenshots"></a>
-log in
+### Login page
 
-![alt text](https://res.cloudinary.com/dptzubs72/image/upload/v1666168462/2022-10-19_1_tacy2m.png)
+![alt text](C:\Users\gezi\OneDrive - Hewlett Packard Enterprise\Desktop\react-chat-app\public\src\assets\LoginPage.PNG)
 
+On this page we enter our username and password and click LOG IN to enter the system.
+If we don't have a username and password, we can click on "Create one" and go to the registration page for the application.
 
+![alt text](C:\Users\gezi\OneDrive - Hewlett Packard Enterprise\Desktop\react-chat-app\public\src\assets\RegisterPage.PNG)
 
-main page show all the products and can filter by Type
+This is the registration page, here we will enter our details and as soon as we finish we will click on CREATE USER and the system will automatically transfer us to the chat page.
 
+![alt text](C:\Users\gezi\OneDrive - Hewlett Packard Enterprise\Desktop\react-chat-app\public\src\assets\LandingPage.PNG)
 
-![alt text](https://res.cloudinary.com/dptzubs72/image/upload/v1666168701/2022-10-19_5_jnr0og.png)
+As soon as we click on CREATE USER and our user is registered in the system, we will reach the above page.
+You can see all the contacts registered to the application on the left.
 
+![alt text](C:\Users\gezi\OneDrive - Hewlett Packard Enterprise\Desktop\react-chat-app\public\src\assets\MessagesScreen.PNG)
 
-product page shows all the data and allows you to give a bid 
-
-![alt text](https://res.cloudinary.com/dptzubs72/image/upload/v1666169269/2022-10-19_6_gnrcyb.png)
+We have chosen someone to talk to!
+You can send text messages and emojis.
+Enjoy!
 
 ## Technologies <a name="Technologies"></a>
    Client:
-   
-   -ReactJs
-   
-   -Redux
-   
+
+   -JS
+   -React
+
    Server:
    
-   -Node.js
-   
+   -NodeJS   
    -express
-   
+   -mongoose
    -mongoDB
-   
-## What next <a name="next"></a>
-- [x] create my product page
-- [ ] make top bided section
-- [ ] send email to the seller
+   -Socket.IO
